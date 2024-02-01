@@ -12,16 +12,17 @@
 .tier {
   display: flex;
   flex-wrap: wrap;
+}
 
-  & > h2 {
-    flex: 1 1 2ch;
-    outline: 1px solid red;
-  }
-  & > .tier__items {
-    flex: 3 1 50ch;
+.tier  > h2 {
+  flex: 1 1 2ch;
+  outline: 1px solid red;
+}
 
-    outline: 1px solid green;
-  }
+.tier  > .tier__items {
+  flex: 3 1 50ch;
+
+  outline: 1px solid green;
 }
 
 .tier__items {
@@ -33,4 +34,8 @@
   grid-template-columns: repeat(auto-fill, var(--cell-size));
   grid-template-rows: minmax(var(--cell-size), max-content);
   gap: 1rem;
+}
+
+.tier__items > li {
+  outline: 1px solid blue;
 }
