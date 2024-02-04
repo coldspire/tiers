@@ -14,12 +14,13 @@
   flex-wrap: wrap;
 }
 
-.tier  > h2 {
+.tier > h2 {
+  margin: 0;
   flex: 1 1 2ch;
   outline: 1px solid red;
 }
 
-.tier  > .tier__items {
+.tier > .tier__items {
   flex: 3 1 50ch;
 
   outline: 1px solid green;
@@ -32,7 +33,7 @@
 
   display: grid;
   grid-template-columns: repeat(auto-fill, var(--cell-size));
-  grid-template-rows: minmax(var(--cell-size), max-content);
+
   gap: 1rem;
 }
 
