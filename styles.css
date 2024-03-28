@@ -36,8 +36,8 @@
   margin: 0;
 
   display: grid;
-  grid-template-columns: repeat(6, var(--cell-size));
-  grid-template-rows: repeat(auto-fill, minmax(var(--cell-size), max-content));
+  grid-template-columns: repeat(4, var(--cell-size));
+  grid-auto-rows: minmax(var(--cell-size), max-content);
   gap: 1rem;
 }
 
