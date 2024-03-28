@@ -1,5 +1,9 @@
 @import url('reset.css');
 
+main {
+  max-width: 1000px;
+}
+
 .tiers {
   display: flex;
   flex-direction: column;
@@ -29,7 +33,7 @@
 }
 
 .tier__items {
-  --cell-size: 150px;
+  --cell-size: 125px;
 
   padding: 0;
   margin: 0;
