@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="UTF-8"/>
 	<meta
@@ -17,13 +17,19 @@
 	<ul class="tiers">
 		<li class="tier">
 			<h2>S</h2>
-			<ul class="tier__items"><li>Bluey</li></ul>
+			<ul class="tier__items">
+				<li>
+					<button class="item-launcher">Bluey</button>
+				</li>
+			</ul>
 		</li>
 
 		<li class="tier">
 			<h2>A</h2>
 			<ul class="tier__items">
-				<li>The Stinky & Dirty Show</li>
+				<li>
+					<button class="item-launcher">The Stinky & Dirty Show</button>
+				</li>
 				<li>Leo the Truck</li>
 			</ul>
 		</li>
@@ -78,5 +84,10 @@
 	</ul>
 	-->
 </main>
+<dialog>
+	<button>Close</button>
+	<p>Description goes here.</p>
+</dialog>
+<script src="desc-dialog.js" defer></script>
 </body>
 </html>
