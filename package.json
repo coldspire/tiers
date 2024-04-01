@@ -1,6 +1,9 @@
 {
   "name": "tiers",
   "version": "1.0.0",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
   "private": true,
   "author": "Owen Anderson",
   "license": "ISC",
