@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "author": "Owen Anderson",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.2.5"
+  }
 }
