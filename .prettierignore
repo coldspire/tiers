@@ -1,4 +1,5 @@
 # Ignore artifacts:
+_site
 build
 dist
 coverage

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "eleventy": "eleventy",
     "lint": "eslint --ext .js --fix src/**",
     "prettier": "prettier --write src/"
   },
@@ -10,6 +11,7 @@
   "author": "Owen Anderson",
   "license": "ISC",
   "devDependencies": {
+    "@11ty/eleventy": "2.0.1",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",

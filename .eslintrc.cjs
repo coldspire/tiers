@@ -25,7 +25,8 @@ module.exports = {
   },
   "ignorePatterns": [
     "src/**/*.html",
-    "src/**/*.md"
+    "src/**/*.md",
+    "_site/**"
   ],
   "rules": {}
 };
