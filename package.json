@@ -1,13 +1,18 @@
 {
   "name": "tiers",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "prettier": "prettier --write ."
+    "lint": "eslint --ext .js --fix src/**",
+    "prettier": "prettier --write src/"
   },
   "private": true,
   "author": "Owen Anderson",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "8.57.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "9.1.0",
     "prettier": "3.2.5"
   }
 }
