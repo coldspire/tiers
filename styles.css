@@ -1,4 +1,4 @@
-@import url('reset.css');
+@import url("reset.css");
 
 main {
   max-width: 1000px;
@@ -29,7 +29,6 @@ main {
 }
 
 .tier ul {
-
 }
 
 .tier__items {
@@ -46,5 +45,5 @@ main {
 
 .tier__items > li {
   display: inline-block;
-  background-color: #EEE;
+  background-color: #eee;
 }
