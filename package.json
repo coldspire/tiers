@@ -2,7 +2,10 @@
   "name": "tiers",
   "version": "1.0.0",
   "scripts": {
-    "eleventy": "eleventy",
+    "build": "npm run eleventy",
+    "eleventy": "npx @11ty/eleventy",
+    "serve": "npm run eleventy -- --serve",
+    "start": "npm run serve",
     "lint": "eslint --ext .js --fix src/**",
     "prettier": "prettier --write src/"
   },
