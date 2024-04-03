@@ -1,7 +1,6 @@
 {
   "name": "tiers",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
     "eleventy": "eleventy",
     "lint": "eslint --ext .js --fix src/**",
