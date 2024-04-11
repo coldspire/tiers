@@ -1,20 +1,24 @@
-[
-  {
-    "rankName": "S",
-    "entries": [
-      {
-        "name": "Memento",
-        "id": "memento"
-      }
-    ]
-  },
-  {
-    "rankName": "B",
-    "entries": [
-      {
-        "name": "Tenet",
-        "id": "tenet"
-      }
-    ]
-  }
-]
+{
+  "title": "Christopher Nolan Movies",
+  "id": "chris-nolan-movies",
+  "ranks": [
+    {
+      "rankName": "S",
+      "entries": [
+        {
+          "name": "Memento",
+          "id": "memento"
+        }
+      ]
+    },
+    {
+      "rankName": "B",
+      "entries": [
+        {
+          "name": "Tenet",
+          "id": "tenet"
+        }
+      ]
+    }
+  ]
+}

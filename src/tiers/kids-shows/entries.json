@@ -1,20 +1,24 @@
-[
-  {
-    "rankName": "S",
-    "entries": [
-      {
-        "name": "Bluey",
-        "id": "bluey"
-      }
-    ]
-  },
-  {
-    "rankName": "A",
-    "entries": [
-      {
-        "name": "The Stinky & Dirty Show",
-        "id": "stinky-dirty"
-      }
-    ]
-  }
-]
+{
+  "title": "Kids Shows",
+  "id": "kids-shows",
+  "ranks": [
+    {
+      "rankName": "S",
+      "entries": [
+        {
+          "name": "Bluey",
+          "id": "bluey"
+        }
+      ]
+    },
+    {
+      "rankName": "A",
+      "entries": [
+        {
+          "name": "The Stinky & Dirty Show",
+          "id": "stinky-dirty"
+        }
+      ]
+    }
+  ]
+}

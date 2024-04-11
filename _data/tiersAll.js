@@ -18,11 +18,7 @@ async function getTiersData() {
     const path = resolve(
       `${tierDirectory.path}/${tierDirectory.name}/entries.json`,
     );
-    const tierDataJson = await getJsonData(path);
-    const tierData = {
-      name: tierDirectory.name,
-      entries: JSON.parse(tierDataJson),
-    };
+    const tierData = JSON.parse(await getJsonData(path));
     tiersData.push(tierData);
   }
 
