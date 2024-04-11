@@ -12,9 +12,9 @@ permalink: tiers/{{ pagination.items[0].name }}/index.html
     {% for rank in tiers.entries %}
         <li>
             <h2>Tier {{ rank.rankName }}</h2>
-                <ol>
+            <ol>
                 {% for entry in rank.entries %}
-                    {{ entry }}
+                    <a href="./{{ entry.id }}/">{{ entry.name }}</a>
                 {% endfor %}
             </ol>
         </li>
