@@ -1,0 +1,11 @@
+---
+layout: base.webc
+title: Tiers
+---
+<h1>Tiers</h1>
+
+<ul>
+    {% for tiers in tiersAll %}
+        <li><a href="tiers/{{ tiers.id }}/">{{ tiers.title }}</a></li>
+    {% endfor %}
+</ul>
