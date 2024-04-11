@@ -1,9 +1,11 @@
 {
   "name": "tiers",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "eleventy": "eleventy",
+    "build": "npm run eleventy",
+    "eleventy": "npx @11ty/eleventy",
+    "serve": "npm run eleventy -- --serve",
+    "start": "npm run serve",
     "lint": "eslint --ext .js --fix src/**",
     "prettier": "prettier --write src/"
   },
@@ -12,6 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "2.0.1",
+    "@11ty/eleventy-plugin-webc": "0.11.2",
     "eslint": "8.57.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "9.1.0",

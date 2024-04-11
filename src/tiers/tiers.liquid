@@ -1,0 +1,24 @@
+---
+layout: base.webc
+pagination:
+    data: tiersAll
+    size: 1
+    alias: tiers
+permalink: tiers/{{ pagination.items[0].id }}/index.html
+---
+<h1>{{ tiers.title }}</h1>
+
+<ol>
+    {% for rank in tiers.ranks %}
+        <li>
+            <h2>Tier {{ rank.rankName }}</h2>
+            <ol>
+                {% for entry in rank.entries %}
+                    <a href="./{{ entry.id }}/">{{ entry.name }}</a>
+                {% endfor %}
+            </ol>
+        </li>
+    {% endfor %}
+</ol>
+<hr>
+<a href="../../">Go back to list of all tiers</a>
