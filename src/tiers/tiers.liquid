@@ -1,0 +1,9 @@
+---
+layout: base.webc
+pagination:
+    data: tiers
+    size: 1
+    alias: tier
+permalink: tiers/{{ pagination.items[0].name }}/index.html
+---
+Tiers for {{ tier.name }} goes here!

@@ -5,6 +5,7 @@ tiersTitle: Kids Shows
 id: stinky-dirty
 rank: A
 tags: 
-  - tiers-kids-shows
+  - tiers
+  - tiersKidsShows
 ---
 Very, very good.
