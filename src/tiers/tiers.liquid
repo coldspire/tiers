@@ -1,9 +1,22 @@
 ---
 layout: base.webc
 pagination:
-    data: tiers
+    data: tiersAll
     size: 1
-    alias: tier
+    alias: tiers
 permalink: tiers/{{ pagination.items[0].name }}/index.html
 ---
-Tiers for {{ tier.name }} goes here!
+<h1>{{ tiers.name }}</h1>
+
+<ol>
+    {% for rank in tiers.entries %}
+        <li>
+            <h2>Tier {{ rank.rankName }}</h2>
+                <ol>
+                {% for entry in rank.entries %}
+                    {{ entry }}
+                {% endfor %}
+            </ol>
+        </li>
+    {% endfor %}
+</ol>

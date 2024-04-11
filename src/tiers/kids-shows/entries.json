@@ -1,8 +1,14 @@
-{
-  "S": [
-    "bluey"
-  ],
-  "A": [
-    "stinky-dirty"
-  ]
-}
+[
+  {
+    "rankName": "S",
+    "entries": [
+      "bluey"
+    ]
+  },
+  {
+    "rankName": "A",
+    "entries": [
+      "stinky-dirty"
+    ]
+  }
+]

@@ -1,8 +1,14 @@
-{
-  "S": [
-    "memento"
-  ],
-  "B": [
-    "tenet"
-  ]
-}
+[
+  {
+    "rankName": "S",
+    "entries": [
+      "memento"
+    ]
+  },
+  {
+    "rankName": "B",
+    "entries": [
+      "tenet"
+    ]
+  }
+]
