@@ -2,13 +2,19 @@
   {
     "rankName": "S",
     "entries": [
-      "bluey"
+      {
+        "name": "Bluey",
+        "id": "bluey"
+      }
     ]
   },
   {
     "rankName": "A",
     "entries": [
-      "stinky-dirty"
+      {
+        "name": "The Stinky & Dirty Show",
+        "id": "stinky-dirty"
+      }
     ]
   }
 ]

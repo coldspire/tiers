@@ -2,13 +2,19 @@
   {
     "rankName": "S",
     "entries": [
-      "memento"
+      {
+        "name": "Memento",
+        "id": "memento"
+      }
     ]
   },
   {
     "rankName": "B",
     "entries": [
-      "tenet"
+      {
+        "name": "Tenet",
+        "id": "tenet"
+      }
     ]
   }
 ]
