@@ -1,0 +1,16 @@
+{
+  "tiersTitle": "Kids Shows",
+  "tiersId": "kids-shows",
+  "entries": {
+    "bluey": {
+      "id": "bluey",
+      "title": "Bluey",
+      "rank": "S"
+    },
+    "stinky-dirty": {
+      "id": "stinky-dirty",
+      "title": "The Stinky & Dirty Show",
+      "rank": "A"
+    }
+  }
+}

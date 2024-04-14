@@ -1,9 +1,16 @@
 ---
 layout: tier-item.liquid
-title: Tenet
-tiersTitle: Christopher Nolan Movies
-id: tenet
-rank: B
 ---
+<!--
+tiersTitle: {{ tiersTitle }}
 
-The bestest.
+tiersId: {{ tiersId }}
+
+id: {{ entries[page.fileSlug].id }}
+
+title: {{ entries[page.fileSlug].title }}
+
+rank: {{ entries[page.fileSlug].rank }}
+-->
+
+The B-est.
