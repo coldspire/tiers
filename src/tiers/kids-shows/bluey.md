@@ -1,9 +1,16 @@
 ---
 layout: tier-item.liquid
-title: Bluey
-tiersTitle: Kids Shows
-id: bluey
-rank: S
 ---
+<!--
+tiersTitle: {{ tiersTitle }}
+
+tiersId: {{ tiersId }}
+
+id: {{ entries[page.fileSlug].id }}
+
+title: {{ entries[page.fileSlug].title }}
+
+rank: {{ entries[page.fileSlug].rank }}
+-->
 
 The bestest.

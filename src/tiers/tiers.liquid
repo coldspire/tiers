@@ -4,9 +4,10 @@ pagination:
     data: tiersAll
     size: 1
     alias: tiers
-permalink: tiers/{{ pagination.items[0].id }}/index.html
+permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 ---
-<h1>{{ tiers.title }}</h1>
+
+<h1>{{ tiers.tiersTitle }}</h1>
 
 <ol>
     {% for rank in tiers.ranks %}
@@ -14,7 +15,7 @@ permalink: tiers/{{ pagination.items[0].id }}/index.html
             <h2>Tier {{ rank.rankName }}</h2>
             <ol>
                 {% for entry in rank.entries %}
-                    <a href="./{{ entry.id }}/">{{ entry.name }}</a>
+                    <a href="./{{ entry.id }}/">{{ entry.title }}</a>
                 {% endfor %}
             </ol>
         </li>

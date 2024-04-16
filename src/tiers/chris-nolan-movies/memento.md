@@ -1,9 +1,16 @@
 ---
 layout: tier-item.liquid
-title: Memento
-tiersTitle: Christopher Nolan Movies
-id: memento
-rank: S
 ---
+<!--
+tiersTitle: {{ tiersTitle }}
+
+tiersId: {{ tiersId }}
+
+id: {{ entries[page.fileSlug].id }}
+
+title: {{ entries[page.fileSlug].title }}
+
+rank: {{ entries[page.fileSlug].rank }}
+-->
 
 The bestest.
