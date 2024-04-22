@@ -6,20 +6,23 @@ pagination:
     alias: tiers
 permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 ---
+<header>
+    <h1>{{ tiers.tiersTitle }}</h1>
+</header>
 
-<h1>{{ tiers.tiersTitle }}</h1>
-
-<ol>
-    {% for rank in tiers.ranks %}
-        <li>
-            <h2>Tier {{ rank.rankName }}</h2>
-            <ol>
-                {% for entry in rank.entries %}
-                    <a href="./{{ entry.id }}/">{{ entry.title }}</a>
-                {% endfor %}
-            </ol>
-        </li>
-    {% endfor %}
-</ol>
+<main>
+    <ul class="tiers">
+        {% for rank in tiers.ranks %}
+            <li class="tier">
+                <h2>{{ rank.rankName }}</h2>
+                <ul class="tier__items">
+                    {% for entry in rank.entries %}
+                        <a href="./{{ entry.id }}/">{{ entry.title }}</a>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</main>
 <hr>
 <a href="../../">Go back to list of all tiers</a>
