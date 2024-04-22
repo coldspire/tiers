@@ -1,5 +1,14 @@
 @import url("reset.css");
 
+:root {
+  --tier-heading-bg-S: #ff7f7e;
+  --tier-heading-bg-A: #ffbf7f;
+  --tier-heading-bg-B: #feff7f;
+  --tier-heading-bg-C: #7eff80;
+  --tier-heading-bg-D: #7fffff;
+  --tier-heading-bg-F: #807fff;
+}
+
 main {
   max-width: 1000px;
 }
@@ -22,6 +31,8 @@ main {
 .tier > h2 {
   margin: 0;
   flex: 1 1 2ch;
+
+  background-color: var(--tier-heading-bg, grey);
 }
 
 .tier > .tier__items {

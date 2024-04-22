@@ -13,7 +13,7 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 <main>
     <ul class="tiers">
         {% for rank in tiers.ranks %}
-            <li class="tier">
+            <li class="tier" style="--tier-heading-bg: var(--tier-heading-bg-{{ rank.rankName }})">
                 <h2>{{ rank.rankName }}</h2>
                 <ul class="tier__items">
                     {% for entry in rank.entries %}
