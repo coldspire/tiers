@@ -31,6 +31,8 @@ main {
 .tier > h2 {
   margin: 0;
   flex: 1 1 2ch;
+  display: grid;
+  place-content: center;
 
   background-color: var(--tier-heading-bg, grey);
 }
