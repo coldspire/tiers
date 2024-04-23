@@ -24,17 +24,31 @@ main {
 }
 
 .tier {
+  --cell-size: 125px;
+
   display: flex;
   flex-wrap: wrap; /** Layout note: Remove this, and the extra line in UL goes away */
+
+  container-type: inline-size;
 }
 
 .tier > h2 {
   margin: 0;
-  flex: 1 1 2ch;
+  flex: 1 0 var(--cell-size);
+  max-width: var(--cell-size);
   display: grid;
   place-content: center;
 
+  height: var(--cell-size);
+
   background-color: var(--tier-heading-bg, grey);
+}
+
+@container (width < 525px) {
+  .tier > h2 {
+    max-width: unset;
+    height: min-content;
+  }
 }
 
 .tier > .tier__items {
@@ -45,8 +59,6 @@ main {
 }
 
 .tier__items {
-  --cell-size: 125px;
-
   padding: 0;
   margin: 0;
 
