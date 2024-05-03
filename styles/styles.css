@@ -64,6 +64,12 @@ main {
   gap: 1rem;
 
   list-style: none;
+
+  background-color: color-mix(
+    in oklab,
+    var(--tier-heading-bg) 75%,
+    rebeccapurple
+  );
 }
 
 .tier__items > li {
