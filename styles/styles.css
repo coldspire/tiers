@@ -70,6 +70,7 @@ main {
   padding: 1em;
 
   min-width: var(--cell-size);
+  max-width: 100%;
   min-height: var(--cell-size);
   flex-shrink: 0;
 
