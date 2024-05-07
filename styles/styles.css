@@ -24,7 +24,8 @@ main {
 }
 
 .tier {
-  --cell-size: 125px;
+  --spacing-common: 1em;
+  --cell-size: calc(125px - var(--spacing-common));
 
   display: flex;
   flex-wrap: wrap; /** Layout note: Remove this, and the extra line in UL goes away */
@@ -34,12 +35,12 @@ main {
 
 .tier > h2 {
   margin: 0;
+  padding: var(--spacing-common);
+
   flex: 1 0 var(--cell-size);
   max-width: var(--cell-size);
   display: grid;
   place-content: center;
-
-  height: var(--cell-size);
 
   background-color: var(--tier-heading-bg, grey);
 }
@@ -56,8 +57,8 @@ main {
 }
 
 .tier__items {
-  padding: 0;
   margin: 0;
+  padding: var(--spacing-common);
 
   display: flex;
   flex-wrap: wrap;
@@ -73,7 +74,7 @@ main {
 }
 
 .tier__items > li {
-  padding: 1em;
+  padding: var(--spacing-common);
 
   min-width: var(--cell-size);
   max-width: 100%;
