@@ -103,7 +103,6 @@ async function getTiersData() {
     tiersAllData.push(tiersData);
   }
 
-  console.dir(JSON.stringify(tiersAllData));
   return tiersAllData;
 }
 

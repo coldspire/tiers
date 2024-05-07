@@ -1,5 +1,5 @@
 ---
-layout: base.webc
+layout: base.liquid
 ---
 {% assign entry = entries[page.fileSlug] %}
 <h1>{{ entry.title }}</h1>
@@ -8,3 +8,6 @@ layout: base.webc
 {{ content }}
 <hr>
 <a href="../">Go back to the {{ tiersTitle }} tiers</a>
+{% renderTemplate "webc" %}
+<tiers-link></tiers-link>
+{% endrenderTemplate %}

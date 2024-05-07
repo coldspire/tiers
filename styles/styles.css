@@ -1,0 +1,132 @@
+@import url("reset.css");
+
+@font-face {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/KarlaNormal500.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191,
+    U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Moon Bold";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url(/fonts/MoonBold.otf) format("opentype");
+}
+
+:root {
+  --tier-heading-bg-S: #ff7f7e;
+  --tier-heading-bg-A: #ffbf7f;
+  --tier-heading-bg-B: #feff7f;
+  --tier-heading-bg-C: #7eff80;
+  --tier-heading-bg-D: #7fffff;
+  --tier-heading-bg-F: #807fff;
+}
+
+html {
+  font-family: Karla, Helvetica, Calabri, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Moon Bold", sans-serif;
+}
+
+main {
+  max-width: 1000px;
+}
+
+.tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  padding-inline: 40px;
+
+  list-style: none;
+}
+
+.tier {
+  --spacing-common: 1em;
+  --cell-size: calc(125px - var(--spacing-common));
+
+  display: flex;
+  flex-wrap: wrap; /** Layout note: Remove this, and the extra line in UL goes away */
+
+  container-type: inline-size;
+}
+
+.tier > h2 {
+  font-family: "Moon Bold", sans-serif;
+  font-size: 2.25em;
+
+  margin: 0;
+  padding: var(--spacing-common);
+
+  flex: 1 0 var(--cell-size);
+  max-width: var(--cell-size);
+  display: grid;
+  place-content: center;
+
+  background-color: var(--tier-heading-bg, grey);
+}
+
+@container (width < 525px) {
+  .tier > h2 {
+    max-width: unset;
+    height: min-content;
+
+    position: sticky;
+    top: 0;
+  }
+}
+
+.tier > .tier__items {
+  flex: 3 1 50ch;
+}
+
+.tier__items {
+  margin: 0;
+  padding: var(--spacing-common);
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  list-style: none;
+
+  background-color: color-mix(
+    in oklab,
+    var(--tier-heading-bg) 75%,
+    rebeccapurple
+  );
+}
+
+.tier__items > li {
+  font-family: "Karla", Calibri, Arial, sans-serif;
+
+  padding: var(--spacing-common);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+  min-width: var(--cell-size);
+  max-width: 100%;
+  min-height: var(--cell-size);
+  flex-shrink: 0;
+
+  display: grid;
+  place-content: center;
+
+  font-size: 1.5rem;
+
+  background-color: color-mix(in oklab, var(--tier-heading-bg) 50%, white);
+}
