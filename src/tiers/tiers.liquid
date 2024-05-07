@@ -1,14 +1,18 @@
 ---
 layout: base.liquid
 pagination:
-    data: tiersAll
-    size: 1
-    alias: tiers
+  data: tiersAll
+  size: 1
+  alias: tiers
 permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 ---
 <header>
     <h1>{{ tiers.tiersTitle }}</h1>
 </header>
+
+{% renderTemplate "webc" %}
+<tiers-link></tiers-link>
+{% endrenderTemplate %}
 
 <main>
     <ul class="tiers">
@@ -17,14 +21,16 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
                 <h2>{{ rank.rankName }}</h2>
                 <ul class="tier__items">
                     {% for entry in rank.entries %}
-                    <li>
-                        <a href="./{{ entry.id }}/">{{ entry.title }}</a>
-                    </li>
+                        <li>
+                            <a href="./{{ entry.id }}/">{{ entry.title }}</a>
+                        </li>
                     {% endfor %}
                 </ul>
             </li>
         {% endfor %}
     </ul>
 </main>
-<hr>
-<a href="../../">Go back to list of all tiers</a>
+
+{% renderTemplate "webc" %}
+<tiers-link></tiers-link>
+{% endrenderTemplate %}
