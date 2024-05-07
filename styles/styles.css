@@ -75,6 +75,8 @@ main {
 
 .tier__items > li {
   padding: var(--spacing-common);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 
   min-width: var(--cell-size);
   max-width: 100%;
@@ -86,5 +88,5 @@ main {
 
   font-size: 1.5rem;
 
-  background-color: #bbb;
+  background-color: color-mix(in oklab, var(--tier-heading-bg) 50%, white);
 }
