@@ -49,6 +49,9 @@ main {
   .tier > h2 {
     max-width: unset;
     height: min-content;
+
+    position: sticky;
+    top: 0;
   }
 }
 
