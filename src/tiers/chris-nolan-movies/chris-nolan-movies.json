@@ -7,10 +7,50 @@
       "title": "Memento",
       "rank": "S"
     },
+    "the-dark-knight": {
+      "id": "the-dark-knight",
+      "title": "The Dark Knight",
+      "rank": "A"
+    },
     "tenet": {
       "id": "tenet",
       "title": "Tenet",
+      "rank": "A"
+    },
+    "dunkirk": {
+      "id": "dunkirk",
+      "title": "Dunkirk",
       "rank": "B"
+    },
+    "inception": {
+      "id": "inception",
+      "title": "Inception",
+      "rank": "B"
+    },
+    "interstellar": {
+      "id": "interstellar",
+      "title": "Interstellar",
+      "rank": "B"
+    },
+    "batman-begins": {
+      "id": "batman-begins",
+      "title": "Batman Begins",
+      "rank": "C"
+    },
+    "the-dark-knight-rises": {
+      "id": "the-dark-knight-rises",
+      "title": "The Dark Knight Rises",
+      "rank": "C"
+    },
+    "the-prestige": {
+      "id": "the-prestige",
+      "title": "The Prestige",
+      "rank": "C"
+    },
+    "following": {
+      "id": "following",
+      "title": "Following",
+      "rank": "D"
     }
   }
 }
