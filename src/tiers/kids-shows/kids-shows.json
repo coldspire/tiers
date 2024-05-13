@@ -11,6 +11,81 @@
       "id": "stinky-dirty",
       "title": "The Stinky & Dirty Show",
       "rank": "A"
+    },
+    "kid-crew": {
+      "id": "kid-crew",
+      "title": "Kid Crew",
+      "rank": "B"
+    },
+    "mickey-mouse-clubhouse": {
+      "id": "mickey-mouse-clubhouse",
+      "title": "Mickey Mouse Clubhouse",
+      "rank": "B"
+    },
+    "paw-patrol": {
+      "id": "paw-patrol",
+      "title": "Paw Patrol (original)",
+      "rank": "B"
+    },
+    "blaze-monster-machines": {
+      "id": "blaze-monster-machines",
+      "title": "Blaze and the Monster Machines",
+      "rank": "C"
+    },
+    "blippi-new": {
+      "id": "blippi-new",
+      "title": "Blippi (with new Blippi)",
+      "rank": "C"
+    },
+    "hp-mini-diy-tractor": {
+      "id": "hp-mini-diy-tractor",
+      "title": "HP Mini DIY Tractor",
+      "rank": "C"
+    },
+    "hudsons-playground": {
+      "id": "hudsons-playground",
+      "title": "Hudson's Playground",
+      "rank": "C"
+    },
+    "mickey-mouse-mixed-up-roadster": {
+      "id": "mickey-mouse-mixed-up-roadster",
+      "title": "Mickey Mouse Mixed-Up Adventures / Roadster Racers",
+      "rank": "C"
+    },
+    "blippi-original": {
+      "id": "blippi-original",
+      "title": "Blippi (with original Blippi)",
+      "rank": "D"
+    },
+    "mickey-mouse-funhouse": {
+      "id": "mickey-mouse-funhouse",
+      "title": "Mickey Mouse Funhouse",
+      "rank": "D"
+    },
+    "spidey-amazing-friends": {
+      "id": "spidey-amazing-friends",
+      "title": "Spidey and His Amazing Friends",
+      "rank": "D"
+    },
+    "awesmr-pop": {
+      "id": "awesmr-pop",
+      "title": "AWESMR Pop",
+      "rank": "F"
+    },
+    "cgi-vehicles-garbage": {
+      "id": "cgi-vehicles-garbage",
+      "title": "CGI vehicles garbage",
+      "rank": "F"
+    },
+    "farming-sim-garbage": {
+      "id": "farming-sim-garbage",
+      "title": "Farming Simulator garbage",
+      "rank": "F"
+    },
+    "superkitties": {
+      "id": "superkitties",
+      "title": "SuperKitties",
+      "rank": "F"
     }
   }
 }
