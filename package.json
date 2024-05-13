@@ -8,7 +8,8 @@
     "serve": "npm run eleventy -- --serve",
     "start": "npm run serve",
     "lint": "eslint --ext .js --fix src/**",
-    "prettier": "prettier --write src/"
+    "prettier": "prettier --write src/",
+    "gen-entries": "node ./generate-entry-files.mjs"
   },
   "private": true,
   "author": "Owen Anderson",
