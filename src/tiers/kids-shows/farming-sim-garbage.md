@@ -1,3 +1,16 @@
 ---
 layout: tier-item.liquid
 ---
+One of the odder corners of cheap, endless YouTube content for kids takes place in the wholesome world of the Farming Simulator games. If you play Farming Simulator straight, you're in for a fine blue-collar buffet of crops, machinery with frighteningly-large tires, more crops, low-resolution livestock, yet more crops, and endless menus and options for yer farmin' fun. These games are _popular_ and, from what I can tell, well-made and respectful of their audience, especially in the weird current world of "simulator" games (which has extended to things like "Power Washer Simulator," "Supermarket Simulator," "House Flipper," and, unfortunately, "Police Shootout").
+
+But in the world of young-kids' entertainment on YouTube, farmers in Farming Simulator aren't whistling along and driving a giant harvester over fields of waving wheat, soybeans, and corn. Instead of a lovely little ranch just outside of a small-town locale, the setting is a landscape of XXXXXXXXXXXXXXXXXXXXX. A scattering of hot air balloons hang motionless in the sky, though some of them are sunk into the ground. The local flora consists of perfectly-groomed and oriented rows of poplars and hedgerows. Geologically-impossible mountain ranges lurk just outside the surrealist city limits.
+
+Farmers might sometimes harvest crops — sunflowers are an inexplicable popular pick  — but more often good ol' boys and girls are hauling massive blue raspberries, soccer balls, multicolored Godzilla toys, or giant bees. Routes to jobs avoid the consistency and speed of surface streets: drivers instead bounce through XXXXXXXXXXXXXXXXXXXXX and across unsupported pathways in the sky made out of clusters of logs and boulders. Obstacles include stacks of giant colored dice, massive bowling pins, and towering toy elephants. 
+
+During a day's work, unscheduled cameos from, er, _other properties_ are not uncommon. If a Fendt truck is hauling a giant pink lemon slice over a mile-high unsupported bridge made out of Lightning McQueens, or if a Man truck is pulling a trailer of an Among Us character under the visage of Chase from Paw Patrol, it's just another day on the farm. I'm sure the paperwork for these appearances is up-to-date.
+
+Through it all, the same folksy bluegrass-y soundtrack plays on repeat. Or maybe these types of videos may not _actually_ all use the same soundtrack, but in my memory they certainly do. Or maybe each one plays a different soundtrack than the _same_ one I remember _all_ of them playing. It makes no difference in the end.
+
+And, of course, these videos all stink. They rob games like Farming Simulator of the compelling joy of process, decision-making, and operational acumen, replacing it with XXXXXXXXXXXXXXXXXX. I'm not someone who has ever seen someone playing a sports game and thought, _Why bother? Just do it for real._ [^1] But I might make an exception for someone watching these terrible Farming Simulator videos.
+
+[^1]: While never being on the receiving end of this for sports games -- the last sports game I played was probably NHL 95, roughly 30 years ago -- I heard it few times during the musical-games era of _Guitar Hero_ and _Rock Band_, about 15 years ago.
