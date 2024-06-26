@@ -57,6 +57,11 @@
       "title": "Blippi (with original Blippi)",
       "rank": "D"
     },
+    "east-asian-musical-revues": {
+      "id": "east-asian-musical-revues",
+      "title": "East Asian musical revues",
+      "rank": "D"
+    },
     "mickey-mouse-funhouse": {
       "id": "mickey-mouse-funhouse",
       "title": "Mickey Mouse Funhouse",
@@ -66,11 +71,6 @@
       "id": "spidey-amazing-friends",
       "title": "Spidey and His Amazing Friends",
       "rank": "D"
-    },
-    "awesmr-pop": {
-      "id": "awesmr-pop",
-      "title": "AWESMR Pop",
-      "rank": "F"
     },
     "cgi-vehicles-garbage": {
       "id": "cgi-vehicles-garbage",
