@@ -1,6 +1,17 @@
 ---
 layout: tier-item.liquid
 ---
+
+One of the odder corners of cheap, endless YouTube content for kids takes place in the wholesome world of the Farming Simulator games. In Farming Simulator played straight, you run a farm, just, y'know, digitally: crops, machinery with frighteningly-large tires, more crops, low-resolution livestock, yet more crops, and endless menus and options for farmin' fun. Life is rural and normal.
+
+But on YouTube, the world of Farming Simulator is a very different place. There is large farming equipment, but it is all now brightly-hued in vivid pink, green, blue, and any other color you can see a mile away. Instead of farming sunflowers and sorghum, you drive a front loader to haul giant rubber ducks or strawberries the size of small cars. Instead of fairly plain flat fields and landscapes, the terrain is constructed by a cruel hand of irregular undulating hills and valleys, meter-deep creeks that snake around for miles, and surreal aerial pathways -- these paths are constructed out of stuck-together railroad ties and rock clusters, among other copy-pasted objects of the game world -- that rise and fall in random locations. Hot air balloons hang in the sky indefinitely. Copyright infringement is common place, as you putter past the effigies of Pokemon characters and Lightning McQueen.
+
+YouTube Farming Simulator is a very strange place. But this misshapen world also depicts work in the most barest sense: just simply _doing_, without experience, planning, execution, and any satisfaction that comes with it all. Watching someone doing capable work -- and the Farming Simulator games _au natural_ are detailed and complicated enough that the depiction is one of actual farm work -- is one of the great pleasures of _watching_. But staring at a pink tractor carry a giant blueberry across a skybridge into a far-off corner of the world may sound novel, but it is empty of nutrition. It leaves the brain as soon as the video ends.
+
+--
+
+OLD
+
 One of the odder corners of cheap, endless YouTube content for kids takes place in the wholesome world of the Farming Simulator games. If you play Farming Simulator straight, you're in for a fine blue-collar buffet of crops, machinery with frighteningly-large tires, more crops, low-resolution livestock, yet more crops, and endless menus and options for yer farmin' fun. These games are _popular_ and, from what I can tell, well-made and respectful of their audience, especially in the weird current world of "simulator" games (which has extended to things like "Power Washer Simulator," "Supermarket Simulator," "House Flipper," and, unfortunately, "Police Shootout").
 
 But in the world of young-kids' entertainment on YouTube, farmers in Farming Simulator aren't whistlin' along and cruising a giant harvester over fields of waving wheat, soybeans, and corn. Imagine, if you will, stepping into the wild world of YouTube Farming Simulator Garbage. Your character appears normal enough, the same standard avatar as you'd see in a real Farming Simulator session: denim overalls, white T-shirt, ball cap to shield your eyes while makin' hay. Functional boots. Very practical. We are farming, after all.
