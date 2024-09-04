@@ -27,11 +27,6 @@
       "title": "Paw Patrol (original)",
       "rank": "B"
     },
-    "blaze-monster-machines": {
-      "id": "blaze-monster-machines",
-      "title": "Blaze and the Monster Machines",
-      "rank": "C"
-    },
     "blippi-new": {
       "id": "blippi-new",
       "title": "Blippi (with new Blippi)",
@@ -57,11 +52,6 @@
       "title": "Blippi (with original Blippi)",
       "rank": "D"
     },
-    "east-asian-musical-revues": {
-      "id": "east-asian-musical-revues",
-      "title": "East Asian musical revues",
-      "rank": "D"
-    },
     "mickey-mouse-funhouse": {
       "id": "mickey-mouse-funhouse",
       "title": "Mickey Mouse Funhouse",
@@ -80,11 +70,6 @@
     "farming-sim-garbage": {
       "id": "farming-sim-garbage",
       "title": "Farming Simulator garbage",
-      "rank": "F"
-    },
-    "superkitties": {
-      "id": "superkitties",
-      "title": "SuperKitties",
       "rank": "F"
     }
   }
