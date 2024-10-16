@@ -1,0 +1,41 @@
+# Guidelines for writing
+
+Follow these to help the writing process flow smoothly and quickly.
+
+## For a new tier
+- Start with no more than ten entries. Seven or eight to start is even better.
+
+## For tier entries
+- Keep it personal! Avoid recapping show aspects or plots or anything that can be solved by otherwise looking it up on Wikipedia or some other objective resource. It's much more compelling if personal, and the words will flow a lot more easily.
+- 300 words should be the high end of an entry writeup. Anything more is way too long and probably includes non-personal details.
+
+## Word count examples
+
+100 words (totally fine, but gotta get right to the point to make it work):
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ipsum turpis, tempor ut diam nec, tincidunt blandit velit. Sed odio arcu, scelerisque quis urna eleifend, blandit gravida dui. Etiam tempus metus ac dui condimentum interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent varius lectus ipsum, at blandit metus rutrum sed. Donec vel lorem nec metus consequat feugiat ac ac erat. Aliquam vulputate id enim a fermentum. Fusce maximus orci convallis erat faucibus accumsan. Cras eget nisl sed metus vulputate maximus. Curabitur posuere elit in laoreet accumsan. Etiam viverra augue non neque dapibus, sed fringilla augue pretium.
+
+200 words (this is a good normal length):
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis turpis a metus facilisis posuere vel sed nisi. Proin pharetra ac ante non interdum. Donec quam ipsum, scelerisque id felis in, molestie condimentum ex. Nullam tempus pharetra libero, vitae faucibus nulla aliquet ac. Pellentesque gravida nunc quis nunc ornare bibendum. Vivamus vitae mauris sit amet mi molestie ultrices. Integer suscipit justo eu rhoncus tincidunt. Vivamus eu maximus est, eget vestibulum justo. Donec quis iaculis dui. Duis lectus nibh, blandit eget sagittis eu, ullamcorper vitae quam. Nunc ac commodo ex, vel rhoncus leo. Pellentesque ornare iaculis lorem, vel accumsan est feugiat nec. Donec rutrum tempor metus. Nullam condimentum consectetur porttitor. Suspendisse quis cursus neque. In neque sapien, mollis vitae molestie vel, semper quis libero.
+> 
+> Praesent eu enim nec purus tempus mollis. Fusce laoreet mollis massa nec dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris placerat blandit ornare. Aenean cursus, tellus vitae molestie egestas, nisi urna varius ipsum, non euismod sapien est non velit. Aenean urna libero, placerat id pretium maximus, commodo sit amet leo. Integer ac aliquet sapien. Aenean ac lacinia est. Nam id diam eget risus placerat cursus. Fusce suscipit eget nunc nec rutrum. Etiam condimentum semper est.
+
+300 words (on the high end):
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pellentesque nec nibh eu pulvinar. Donec at faucibus nisl. Sed eget lobortis quam, ut pretium sem. Etiam ultrices bibendum purus in convallis. Nullam lobortis augue quis fermentum ornare. Aenean velit metus, mattis ac malesuada eget, dignissim id nulla. Nullam non lacinia enim, vitae semper magna. Vestibulum sed rhoncus sem, sed accumsan tellus. Integer non ullamcorper turpis, quis pulvinar arcu. Donec ultrices ligula sed ipsum porttitor malesuada. Praesent eu aliquet lectus, vel venenatis leo. Maecenas risus leo, dictum a tortor vehicula, tempor dictum augue.
+>
+>Suspendisse vestibulum leo at leo molestie, sit amet pharetra ipsum pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed maximus maximus sollicitudin. Duis id commodo ipsum. Etiam suscipit suscipit justo non interdum. Nunc id eros tempus metus iaculis rutrum lobortis vitae libero. Donec ut sapien purus. Nullam lacinia nec justo eget condimentum. Donec sit amet dignissim tellus. Sed pulvinar sed massa et euismod. Nullam ac varius lorem.
+>
+>Sed eleifend ac nibh viverra iaculis. Curabitur a pellentesque purus. Nullam finibus ac diam at mollis. Praesent ultrices sem sed auctor maximus. Curabitur at metus quam. Sed in blandit urna, ac tincidunt neque. Ut dapibus enim risus, eget faucibus metus viverra eu. Morbi accumsan sollicitudin sem vel interdum. Donec tincidunt elit libero, et porttitor diam iaculis eget.
+>
+>Mauris quis ipsum massa. Phasellus venenatis vel urna sit amet aliquam. Fusce auctor a risus a varius. Donec purus arcu, tempor non quam non, molestie vehicula enim. Quisque efficitur erat suscipit enim lacinia, eu sodales leo ultricies. Cras posuere tortor velit, id consectetur libero mattis sed. Pellentesque euismod dui nec metus tincidunt, sed viverra lectus finibus. Ut varius lectus scelerisque molestie interdum. Vivamus scelerisque eros eget posuere efficitur. Sed varius facilisis est vitae blandit. Proin mattis arcu non.
+
+500 words (way too many words!):
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis rutrum lobortis. Fusce nec accumsan velit, at tincidunt eros. Suspendisse bibendum elit in dui ornare, et mollis ipsum interdum. Fusce vel felis eu ipsum ultrices commodo. Vivamus laoreet vulputate odio. Nunc venenatis ex a elit maximus, non ultricies dolor sodales. In non rutrum diam, vitae congue massa. Proin felis ante, fringilla scelerisque tortor eu, elementum efficitur nibh. Nunc molestie massa sit amet aliquam porttitor. Aliquam faucibus non mauris eget convallis. Vestibulum sagittis metus elit, pellentesque luctus justo efficitur id. Donec posuere nunc a ultrices vehicula.
+>
+>Vivamus ultricies enim mi, quis tristique felis interdum ac. Nunc euismod condimentum eleifend. Phasellus bibendum eros vitae ante cursus pretium. Suspendisse nec nibh nec lectus lacinia rhoncus vitae ut diam. Sed euismod erat at lorem varius gravida. Sed sit amet venenatis neque. Quisque placerat accumsan tortor, non porttitor turpis lobortis dignissim. Duis sed semper augue, at congue tortor. Integer viverra, elit ut accumsan iaculis, eros est luctus ligula, in finibus diam justo id tellus. Aenean pharetra libero turpis, a scelerisque tellus ornare vitae. Vivamus sed libero ac ligula ornare dignissim at elementum ante. Quisque luctus nulla eget nisi pulvinar, sed viverra dui sodales. Vestibulum quis tincidunt lacus, non laoreet magna.
+>
+>Sed malesuada odio vitae tincidunt efficitur. Cras auctor lacus sit amet enim tincidunt porta. Integer viverra turpis in nibh laoreet, tincidunt tempus elit iaculis. Aenean id nisl pretium, viverra dui at, porta lacus. Suspendisse massa eros, laoreet eu finibus a, placerat ut lorem. Integer euismod leo vitae euismod sollicitudin. Aenean lacinia arcu pellentesque metus hendrerit porta.
+>
+>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque condimentum augue quis est posuere molestie at eu felis. Nullam ut nulla non eros vulputate luctus vel eget eros. Cras ultrices a leo vitae cursus. Donec vitae vulputate nibh, vel cursus nisi. Maecenas dapibus magna non tortor iaculis suscipit. Donec hendrerit mollis turpis non placerat. Maecenas ac nibh interdum, convallis velit eget, aliquet nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vitae venenatis est, sit amet maximus velit. Aliquam aliquam dapibus massa eu tempor. Integer efficitur consequat arcu, in auctor lectus posuere at. Curabitur in blandit eros. Donec maximus nibh est, sed cursus orci dictum vel. Praesent non egestas eros, eget consectetur lectus.
+>
+>Vestibulum non imperdiet ante, vitae sollicitudin libero. Sed ut nulla placerat, congue magna ut, venenatis sapien. Maecenas laoreet turpis ac risus bibendum fermentum. Nullam et augue eu orci tincidunt sodales vel eget sapien. Ut dapibus consectetur quam, tristique facilisis nulla aliquet id. Donec maximus tortor nec sodales ultrices. Pellentesque congue, ipsum sed vestibulum commodo, turpis odio rhoncus orci, sit amet molestie enim ipsum et mauris. In vitae vehicula mauris. Duis scelerisque elit sit amet sapien tristique ornare. Fusce eget nunc in nulla tincidunt dapibus vel dapibus erat. Donec fermentum auctor neque, nec pharetra neque auctor ut. Duis nec mi tortor. Integer varius libero eget purus efficitur, et pellentesque diam viverra. Nunc leo nibh, semper eu mattis.
+
