@@ -1,10 +1,6 @@
 ---
-layout: base.liquid
-permalink: "{{ page.filePathStem }}/../about.html"
+layout: tiers-about.liquid
 ---
-# About the “{{ tiersTitle }}” tiers
 
-TODO
-
-[Go back to the tiers](./)
+TODO NOLAN
 
