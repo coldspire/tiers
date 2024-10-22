@@ -111,7 +111,7 @@ main {
   );
 }
 
-.tier__items > li {
+.tier__items > li > a {
   font-family: "Karla", Calibri, Arial, sans-serif;
 
   padding: var(--spacing-common);
@@ -128,5 +128,10 @@ main {
 
   font-size: 1.5rem;
 
-  background-color: color-mix(in oklab, var(--tier-heading-bg) 50%, white);
+  --bg-color: color-mix(in oklab, var(--tier-heading-bg) 50%, white);
+  background-color: var(--bg-color);
+
+  &:hover {
+    background-color: color-mix(in oklab, var(--bg-color) 50%, white);
+  }
 }
