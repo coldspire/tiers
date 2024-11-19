@@ -2,20 +2,25 @@
 layout: tier-item.liquid
 ---
 
-This show is, by all measures, just fine. It's _fine_. This is not a bad show in the way that shows can be bad, especially when you compare it to all the cheap user-made garbage on YouTube or Disney's own SuperKitties.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-But this is a show that _bugs_ me. And the thing that bugs me about this show is how lazy it is. Here is the formula:
-1. Peter Parker/Spiderman and friends are engaged in an activity to set up the plot at large. _We are smart, fun-loving kids doing a thing._
-2. A villain disrupts or pulls the protagonists away from the activity in step 1. _No peace or fun allowed!_
-3. The crew attempts to stop the villainy but runs into one or two minor obstacles when the villain has the upper hand! _Oh no!_
-4. The crew gets it together and subdues the villain! _We did it, gang!_
-5. The activity in step 1 is resumed. _Remember how we loved being smart and fun?_
-6. And to end the episode, a character speaks a _bon mot_ so everyone can laugh together as the screen fades to black. _Isn't it all funny-fun in the end?_
+So here's where I write about my annoyance with the standard children's episodic format, which has gone something like this since time immemorial[^1]: 
 
-To be sure, seemingly 90% of shows for the age demographic of preschoolers through, say, late teenagers — so, yeah, basically all of childhood — follow this formula. Spidey and His Amazing Friends is just the one show of this type that my kids watched the most, so it bothered me the most.
+1. The protagonists and friends are engaged in an activity to set up the plot at large
+2. A villain or situation disrupts or pulls the protagonists away from the activity in step 1
+3. The crew attempts to stop the villainy but runs into one or two minor obstacles. The villain temporarily gains the upper hand
+4. The crew gets it together and subdues the villain
+5. The activity in step 1 is resumed
+6. To end the episode, a character says something funny or clever so everyone can laugh together as the screen fades to black
 
-OK, so _why_ does this show bug me so much? Because it features some of the most recognizable fictional characters in the world standing on top of Disney's broad shoulders, and it takes the easiest route to tell a story. XXXXXXXXXXXXx
+So, all in all, this Spidey show is fine. It's _fine_. This is not a bad show in the way that shows can be bad, especially when you compare it to all the cheap user-made garbage on YouTube or something like the pandering brainless hairball that is Disney's own SuperKitties.
 
-Do I expect anything else from Disney making a show at this level for this age group? No, not really. And yet somehow my brain has convinced itself that a company that is fully capable, in all of the resources that matter, of well-done stories and good compelling visuals should always reach a high bar, regardless of its audience. Obviously that's not the way it goes and hasn't gone that way for a long time.
+But Spidey bugs me. It doesn't bug me because it adheres to The Formula, which is the Hero's Journey 4 Kidz. It doesn't bug me because the show has a dull and lifeless presentation in spite of its bright colors, exaggerated character proportions, and playful banter. It doesn't bug me because I'm not a comic fan and was tired of the glut of comics content that dominated pop culture over the last decade-plus. Or the XXXXXXXXXXXXXXXXX
+
+Spidey bugs me because somehow my brain has convinced itself that Disney, a company that is fully capable of well-done stories and good compelling visuals, regardless of its audience, still puts out shows like this. 
+
+Is that fair? Probably not. 
 
 But it still bugs me.
+
+[^1]:By which I mean at least as far back as the 80s, when I started honing my own TV-watching skills
