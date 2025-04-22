@@ -7,7 +7,7 @@ const { readFile } = require("node:fs/promises");
  * @typedef {Object} Entry
  * @property {string} id
  * @property {string} title
- * @property {"S"|"A"|"B"|"C"|"D"|"F"} rank
+ * @property {"S"|"A"|"B"|"C"|"D"|"F"|"O"} rank
  */
 
 /**
@@ -22,6 +22,7 @@ const RankIndex = {
   C: 3,
   D: 4,
   F: 5,
+  O: 6,
 };
 
 function mapRankStringToIndex(rankAsStr) {
@@ -38,6 +39,8 @@ function mapRankStringToIndex(rankAsStr) {
       return RankIndex.D;
     case "F":
       return RankIndex.F;
+    case "O":
+      return RankIndex.O;
   }
 }
 
@@ -73,6 +76,10 @@ function addRanksToData(tiersData) {
     },
     {
       rankName: "F",
+      entries: [],
+    },
+    {
+      rankName: "O",
       entries: [],
     },
   ];
