@@ -19,15 +19,23 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 <main>
     <ul class="tiers">
         {% for rank in tiers.ranks %}
+            {% assign isOnDeck = rank.rankName == "O" %}
             <li class="tier" style="--tier-heading-bg: var(--tier-heading-bg-{{ rank.rankName }})">
                 <h2>{{ rank.rankName }}</h2>
                 <ul class="tier__items">
                     {% for entry in rank.entries %}
                         <li>
+                            {% if isOnDeck %}
+                            <span class="on-deck">{{ entry.title }}</span>
+                            {% else %}
                             <a href="./{{ entry.id }}/">{{ entry.title }}</a>
+                            {% endif %}
                         </li>
                     {% endfor %}
                 </ul>
+                {%- if isOnDeck -%}
+                    <p class="tier__notice">O-rank entries are "on deck" and under consideration for an appropriate tier.</p>
+                {%- endif -%}
             </li>
         {% endfor %}
     </ul>

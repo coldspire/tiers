@@ -26,6 +26,7 @@
   --tier-heading-bg-C: #7eff80;
   --tier-heading-bg-D: #7fffff;
   --tier-heading-bg-F: #807fff;
+  --tier-heading-bg-O: #aaaaaa;
 }
 
 html {
@@ -94,6 +95,10 @@ main {
   flex: 3 1 50ch;
 }
 
+.tier > .tier__notice {
+  padding-inline-start: var(--cell-size);
+}
+
 .tier__items {
   margin: 0;
   padding: var(--spacing-common);
@@ -111,7 +116,7 @@ main {
   );
 }
 
-.tier__items > li > a {
+.tier__items > li > :where(a, .on-deck) {
   font-family: "Karla", Calibri, Arial, sans-serif;
 
   padding: var(--spacing-common);
@@ -130,8 +135,8 @@ main {
 
   --bg-color: color-mix(in oklab, var(--tier-heading-bg) 50%, white);
   background-color: var(--bg-color);
+}
 
-  &:hover {
-    background-color: color-mix(in oklab, var(--bg-color) 50%, white);
-  }
+.tier__items > li > a:hover {
+  background-color: color-mix(in oklab, var(--bg-color) 50%, white);
 }
