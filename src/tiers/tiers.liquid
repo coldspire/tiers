@@ -28,7 +28,7 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
                             {% if isOnDeck %}
                             <span class="on-deck">{{ entry.title }}</span>
                             {% else %}
-                            <button onclick="document.querySelector('#desc').showModal(); document.location.hash = '{{ entry.id }}';">
+                            <button type="button" onclick="document.querySelector('#desc').showModal(); document.location.hash = '{{ entry.id }}';">
                                 {{ entry.title }}
                             </button>
                             {% endif %}
@@ -51,7 +51,7 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
         </p>
     </section>
     <form method="dialog">
-        <button>Close</button>
+        <button onclick="document.location.hash = '';">Close</button>
     </form>
 </dialog>
 

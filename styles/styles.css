@@ -143,7 +143,7 @@ main {
   cursor: pointer;
 }
 
-.tier__description-dialog {
+.tier__description-dialog[open] {
   width: clamp(350px, 50vw, 700px);
   height: clamp(600px, 50vh, 90vh);
 
@@ -160,6 +160,11 @@ main {
 
 .tier__description-dialog h2 {
   margin: 0;
+}
+
+.tier__description-dialog button {
+  align-self: flex-end;
+  width: fit-content;
 }
 
 ::backdrop {
