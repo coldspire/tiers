@@ -28,7 +28,9 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
                             {% if isOnDeck %}
                             <span class="on-deck">{{ entry.title }}</span>
                             {% else %}
-                            <a href="./{{ entry.id }}/">{{ entry.title }}</a>
+                            <button onclick="document.querySelector('#desc').showModal(); document.location.hash = '{{ entry.id }}';">
+                                {{ entry.title }}
+                            </button>
                             {% endif %}
                         </li>
                     {% endfor %}
@@ -40,6 +42,18 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
         {% endfor %}
     </ul>
 </main>
+
+<dialog id="desc" class="tier__description-dialog">
+    <section>
+        <h2>Entry Title</h2>
+        <p>
+            Tier entry content goes here!
+        </p>
+    </section>
+    <form method="dialog">
+        <button>Close</button>
+    </form>
+</dialog>
 
 {% renderTemplate "webc" %}
 <tiers-link></tiers-link>

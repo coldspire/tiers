@@ -116,10 +116,11 @@ main {
   );
 }
 
-.tier__items > li > :where(a, .on-deck) {
+.tier__items > li > :where(button, .on-deck) {
   font-family: "Karla", Calibri, Arial, sans-serif;
 
   padding: var(--spacing-common);
+  border: 0;
   border-radius: 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 
@@ -137,6 +138,30 @@ main {
   background-color: var(--bg-color);
 }
 
-.tier__items > li > a:hover {
+.tier__items > li > button:hover {
   background-color: color-mix(in oklab, var(--bg-color) 50%, white);
+  cursor: pointer;
+}
+
+.tier__description-dialog {
+  width: clamp(350px, 50vw, 700px);
+  height: clamp(600px, 50vh, 90vh);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 2rem;
+
+  border: 5px solid #888;
+  border-radius: 20px;
+  box-shadow: 15px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tier__description-dialog h2 {
+  margin: 0;
+}
+
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.3);
 }
