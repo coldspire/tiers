@@ -10,7 +10,12 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
     <h1>{{ tiers.tiersTitle }}</h1>
 </header>
 
-<p><a href="about.html">About these tiers</a></p>
+<p>
+    <button type="button" class="button-as-link"
+            onclick="document.querySelector('#desc').showModal(); document.location.hash = '_about';">
+        About these tiers
+    </button>
+</p>
 
 {% renderTemplate "webc" %}
 <tiers-link></tiers-link>
@@ -44,7 +49,11 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 </main>
 
 <dialog id="desc" class="tier__description-dialog">
-    <section>
+    <section id="_about" class="tier-desc">
+        <h2>About "{{ tiers.tiersTitle  }}"</h2>
+        <p>Blah blah blah</p>
+    </section>
+    <section class="tier-desc">
         <h2>Entry Title</h2>
         <p>
             Tier entry content goes here!
