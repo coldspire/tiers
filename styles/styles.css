@@ -161,7 +161,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 2rem;
+  padding: 1rem 2rem;
 
   border: 5px solid #888;
   border-radius: 20px;
@@ -170,6 +170,13 @@ main {
 
 .tier__description-dialog h2 {
   margin: 0;
+}
+
+.tier__description-dialog footer {
+  position: sticky;
+  bottom: -1.25rem;
+  padding-block-end: 1.25rem;
+  background-color: white;
 }
 
 .tier__description-dialog button {
@@ -187,4 +194,16 @@ main {
 
 .tier-desc:target {
   display: block;
+}
+
+.tier-desc > header {
+  position: sticky;
+  top: -1rem;
+  padding-block-start: 1rem;
+  background-color: white;
+  z-index: 2;
+}
+
+.tier-desc > article {
+  position: relative;
 }

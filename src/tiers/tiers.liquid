@@ -50,25 +50,38 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 
 <dialog id="desc" class="tier__description-dialog">
     {% assign tiersPath = "./src/tiers/" | append: tiers.tiersId | append: "/" %}
-    <section id="_about" class="tier-desc">
-        <h2>About "{{ tiers.tiersTitle }}"</h2>
-        {% assign aboutFilePath = tiersPath | append: "_about.md" %}
-        {% renderFile aboutFilePath %}
-    </section>
+    <div id="_about" class="tier-desc">
+        <header>
+            <h2>About "{{ tiers.tiersTitle }}"</h2>
+            <hr>
+        </header>
+        <article>
+            {% assign aboutFilePath = tiersPath | append: "_about.md" %}
+            {% renderFile aboutFilePath %}
+        </article>
+    </div>
     {% for rank in tiers.ranks %}
         {% for entry in rank.entries %}
-            <section id="{{ entry.id }}" class="tier-desc">
-                <h2>{{ entry.title }}</h2>
-                <p>An {{ entry.rank }}-rank entry in the {{ tiers.tiersTitle }} tiers</p>
-                <hr>
-                {% assign descPath = tiersPath | append: "/" | append: entry.id | append: ".md" %}
-                {% renderFile descPath %}
-            </section>
+            <div id="{{ entry.id }}" class="tier-desc">
+                <header>
+                    <h2>{{ entry.title }}</h2>
+                    <p>An {{ entry.rank }}-rank entry in the {{ tiers.tiersTitle }} tiers</p>
+                    <hr>
+                </header>
+                <article>
+                    {% assign descPath = tiersPath | append: "/" | append: entry.id | append: ".md" %}
+                    {% renderFile descPath %}
+                </article>
+            </div>
         {% endfor %}
     {% endfor %}
-    <form method="dialog">
-        <button onclick="document.location.hash = '';">Close</button>
-    </form>
+
+    <footer>
+        <hr>
+        <form method="dialog">
+            <button onclick="document.location.hash = '';">Close</button>
+        </form>
+    </footer>
 </dialog>
 
 {% renderTemplate "webc" %}
