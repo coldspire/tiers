@@ -175,8 +175,11 @@ main {
 .tier__description-dialog footer {
   position: sticky;
   bottom: -1.25rem;
-  padding-block-end: 1.25rem;
+
+  padding-block: 1.25rem;
+
   background-color: white;
+  border-block-start: 2px solid #888;
 }
 
 .tier__description-dialog button {
@@ -199,9 +202,12 @@ main {
 .tier-desc > header {
   position: sticky;
   top: -1rem;
-  padding-block-start: 1rem;
-  background-color: white;
   z-index: 2;
+
+  padding-block: 1rem;
+
+  background-color: white;
+  border-block-end: 2px solid #888;
 }
 
 .tier-desc > article {

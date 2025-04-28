@@ -53,7 +53,6 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
     <div id="_about" class="tier-desc">
         <header>
             <h2>About "{{ tiers.tiersTitle }}"</h2>
-            <hr>
         </header>
         <article>
             {% assign aboutFilePath = tiersPath | append: "_about.md" %}
@@ -66,7 +65,6 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
                 <header>
                     <h2>{{ entry.title }}</h2>
                     <p>An {{ entry.rank }}-rank entry in the {{ tiers.tiersTitle }} tiers</p>
-                    <hr>
                 </header>
                 <article>
                     {% assign descPath = tiersPath | append: "/" | append: entry.id | append: ".md" %}
@@ -77,7 +75,6 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
     {% endfor %}
 
     <footer>
-        <hr>
         <form method="dialog">
             <button onclick="document.location.hash = '';">Close</button>
         </form>
