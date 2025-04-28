@@ -49,16 +49,23 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 </main>
 
 <dialog id="desc" class="tier__description-dialog">
+    {% assign tiersPath = "./src/tiers/" | append: tiers.tiersId | append: "/" %}
     <section id="_about" class="tier-desc">
-        <h2>About "{{ tiers.tiersTitle  }}"</h2>
-        <p>Blah blah blah</p>
+        <h2>About "{{ tiers.tiersTitle }}"</h2>
+        {% assign aboutFilePath = tiersPath | append: "_about.md" %}
+        {% renderFile aboutFilePath %}
     </section>
-    <section class="tier-desc">
-        <h2>Entry Title</h2>
-        <p>
-            Tier entry content goes here!
-        </p>
-    </section>
+    {% for rank in tiers.ranks %}
+        {% for entry in rank.entries %}
+            <section id="{{ entry.id }}" class="tier-desc">
+                <h2>{{ entry.title }}</h2>
+                <p>An {{ entry.rank }}-rank entry in the {{ tiers.tiersTitle }} tiers</p>
+                <hr>
+                {% assign descPath = tiersPath | append: "/" | append: entry.id | append: ".md" %}
+                {% renderFile descPath %}
+            </section>
+        {% endfor %}
+    {% endfor %}
     <form method="dialog">
         <button onclick="document.location.hash = '';">Close</button>
     </form>
