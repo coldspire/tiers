@@ -1,5 +1,3 @@
-const { RankIndex } = require("../../data-helpers/rank-index.js");
-
 module.exports = {
   tiersTitle: "Christopher Nolan Movies",
   tiersId: "chris-nolan-movies",

@@ -1,5 +1,3 @@
-const { RankIndex } = require("../../data-helpers/rank-index.js");
-
 module.exports = {
   tiersTitle: "Kids Shows",
   tiersId: "kids-shows",
