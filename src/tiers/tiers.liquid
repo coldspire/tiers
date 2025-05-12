@@ -1,13 +1,16 @@
 ---
 layout: base.liquid
 pagination:
-  data: tiersAll
+  data: tiers
   size: 1
-  alias: tiers
-permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
+  alias: tiersKey
+permalink: tiers/{{ pagination.items[0] }}/index.html
 ---
+
+{% assign tiersCurrent = tiers[tiersKey] %}
+
 <header>
-    <h1>{{ tiers.tiersTitle }}</h1>
+    <h1>{{ tiersCurrent.tiersTitle }}</h1>
 </header>
 
 <p>
@@ -23,7 +26,7 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 
 <main>
     <ul class="tiers">
-        {% for rank in tiers.ranks %}
+        {% for rank in tiersCurrent.ranks %}
             {% assign isOnDeck = rank.rankName == "O" %}
             <li class="tier" style="--tier-heading-bg: var(--tier-heading-bg-{{ rank.rankName }})">
                 <h2>{{ rank.rankName }}</h2>
@@ -49,26 +52,22 @@ permalink: tiers/{{ pagination.items[0].tiersId }}/index.html
 </main>
 
 <dialog id="desc" class="tier__description-dialog">
-    {% assign tiersPath = "./src/tiers/" | append: tiers.tiersId | append: "/" %}
     <div id="_about" class="tier-desc">
         <header>
-            <h2>About "{{ tiers.tiersTitle }}"</h2>
+            <h2>About "{{ tiersCurrent.tiersTitle }}"</h2>
         </header>
         <article>
-            {% assign aboutFilePath = tiersPath | append: "_about.md" %}
-            {% renderFile aboutFilePath %}
+            {{ tiersCurrent.aboutText }}
         </article>
     </div>
-    {% for rank in tiers.ranks %}
+    {% for rank in tiersCurrent.ranks %}
         {% for entry in rank.entries %}
             <div id="{{ entry.id }}" class="tier-desc">
                 <header>
                     <h2>{{ entry.title }}</h2>
-                    <p>An {{ entry.rank }}-rank entry in the {{ tiers.tiersTitle }} tiers</p>
+                    <p>An {{ rank.rankName }}-rank entry in the {{ tiersCurrent.tiersTitle }} tiers</p>
                 </header>
                 <article>
-                    {% assign descPath = tiersPath | append: "/" | append: entry.id | append: ".md" %}
-                    {% renderFile descPath %}
                 </article>
             </div>
         {% endfor %}
