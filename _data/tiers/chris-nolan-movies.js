@@ -9,6 +9,7 @@ module.exports = {
         {
           id: "memento",
           title: "Memento",
+          text: `Placeholder text!`,
         },
       ],
     },
