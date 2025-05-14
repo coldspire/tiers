@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   tiersTitle: "Christopher Nolan Movies",
   tiersId: "chris-nolan-movies",
   aboutText: `Good job, Chris`,
