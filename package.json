@@ -1,13 +1,14 @@
 {
   "name": "tiers",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "npm run eleventy",
     "clean": "npx rimraf dist/",
     "eleventy": "npx @11ty/eleventy",
     "serve": "npm run eleventy -- --serve",
     "start": "npm run serve",
-    "lint": "eslint --ext .js --fix src/**",
+    "lint": "eslint --fix",
     "prettier": "prettier --write src/"
   },
   "private": true,
@@ -17,9 +18,12 @@
     "@11ty/eleventy": "^3.1.0",
     "@11ty/eleventy-plugin-webc": "0.11.2",
     "@11ty/eleventy-upgrade-help": "^3.0.1",
-    "eslint": "8.57.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "9.1.0",
+    "@eslint/js": "^9.26.0",
+    "@eslint/json": "^0.12.0",
+    "@eslint/markdown": "^6.4.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
     "prettier": "3.2.5"
   }
 }

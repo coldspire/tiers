@@ -1,8 +1,8 @@
-const { inspect } = require("node:util");
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const pluginWebC = require("@11ty/eleventy-plugin-webc");
+import { inspect } from "node:util";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import pluginWebC from "@11ty/eleventy-plugin-webc";
 
-module.exports = function (eleventyConfig) {
+export default async function(eleventyConfig) {
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginWebC);
 

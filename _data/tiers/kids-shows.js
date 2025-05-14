@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   tiersTitle: "Kids Shows",
   tiersId: "kids-shows",
   aboutText: `Good job, Kids`,
