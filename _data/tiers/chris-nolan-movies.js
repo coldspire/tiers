@@ -15,24 +15,68 @@ export default {
     },
     {
       rankName: "A",
-      entries: [],
+      entries: [
+        {
+          id: "the-dark-knight",
+          title: "The Dark Knight",
+          text: ``,
+        },
+        {
+          id: "tenet",
+          title: "Tenet",
+          text: ``,
+        },
+      ],
     },
     {
       rankName: "B",
       entries: [
         {
-          id: "tenet",
-          title: "Tenet",
+          id: "dunkirk",
+          title: "Dunkirk",
+          text: ``,
+        },
+        {
+          id: "inception",
+          title: "Inception",
+          text: ``,
+        },
+        {
+          id: "interstellar",
+          title: "Interstellar",
+          text: ``,
         },
       ],
     },
     {
       rankName: "C",
-      entries: [],
+      entries: [
+        {
+          id: "batman-begins",
+          title: "Batman Begins",
+          text: ``,
+        },
+        {
+          id: "the-dark-knight-rises",
+          title: "The Dark Knight Rises",
+          text: ``,
+        },
+        {
+          id: "the-prestige",
+          title: "The Prestige",
+          text: ``,
+        },
+      ],
     },
     {
       rankName: "D",
-      entries: [],
+      entries: [
+        {
+          id: "following",
+          title: "Following",
+          text: ``,
+        },
+      ],
     },
     {
       rankName: "F",
@@ -40,7 +84,18 @@ export default {
     },
     {
       rankName: "O",
-      entries: [],
+      entries: [
+        {
+          id: "insomnia",
+          title: "Insomnia",
+          text: ``,
+        },
+        {
+          id: "oppenheimer",
+          title: "Oppenheimer",
+          text: ``,
+        },
+      ],
     },
   ],
 };
