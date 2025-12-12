@@ -1,10 +1,22 @@
----
-layout: base.liquid
-pagination:
-  data: tiers
-  size: 1
-  alias: tiersKey
-permalink: tiers/{{ pagination.items[0] }}/index.html
+---js
+{
+    layout: "base.liquid",
+    pagination: {
+        data: "tiers",
+        size: 1,
+        alias: "tiersKey",
+        before: function(paginationData, fullData) {
+            for (const tier of Object.values(fullData.tiers)) {
+                for (const rank of tier.ranks) {
+                    rank.entries.sort((a, b) => a.id.localeCompare(b.id, "en", { base: true }));
+                }
+            }
+
+            return paginationData;
+        }
+    },
+    permalink: "tiers/{{ pagination.items[0] }}/index.html"
+}
 ---
 
 {% assign tiersCurrent = tiers[tiersKey] %}
