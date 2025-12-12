@@ -57,7 +57,9 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
             <h2>About "{{ tiersCurrent.tiersTitle }}"</h2>
         </header>
         <article>
-            {{ tiersCurrent.aboutText }}
+            {% renderTemplate "liquid,md", tiersCurrent %}
+            {{ aboutText }}
+            {% endrenderTemplate %}
         </article>
     </div>
     {% for rank in tiersCurrent.ranks %}
@@ -68,7 +70,9 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
                     <p>An {{ rank.rankName }}-rank entry in the {{ tiersCurrent.tiersTitle }} tiers</p>
                 </header>
                 <article>
-                    {{ entry.text }}
+                    {% renderTemplate "liquid,md", entry %}
+                    {{ text }}
+                    {% endrenderTemplate %}
                 </article>
             </div>
         {% endfor %}
