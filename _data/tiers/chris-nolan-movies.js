@@ -54,7 +54,7 @@ export default {
         {
           id: "dunkirk",
           title: "Dunkirk",
-          text: ``,
+          text: `_Full text to come._`,
         },
         {
           id: "inception",
@@ -117,12 +117,12 @@ export default {
         {
           id: "insomnia",
           title: "Insomnia",
-          text: ``,
+          text: `_Full text to come._`,
         },
         {
           id: "oppenheimer",
           title: "Oppenheimer",
-          text: ``,
+          text: `_Full text to come._`,
         },
       ],
     },
