@@ -10,7 +10,10 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
 {% assign tiersCurrent = tiers[tiersKey] %}
 
 <header>
-    <h1>{{ tiersCurrent.tiersTitle }}</h1>
+    <h1 class="tiers-background">
+        <div aria-hidden="true" class="tiers-background__colors"></div>
+        <span class="padding-inline">Tiers: {{ tiersCurrent.tiersTitle }}</span>
+    </h1>
 </header>
 
 <p>
@@ -67,7 +70,7 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
             <div id="{{ entry.id }}" class="tier-desc">
                 <header>
                     <h2>{{ entry.title }}</h2>
-                    <p>An {{ rank.rankName }}-rank entry in the {{ tiersCurrent.tiersTitle }} tiers</p>
+                    <p>An <span class="rank-wrapper" style="--bg-color: var(--tier-heading-bg-{{rank.rankName}})">{{ rank.rankName }}-rank</span> entry in the {{ tiersCurrent.tiersTitle }} tiers</p>
                 </header>
                 <article>
                     {% renderTemplate "liquid,md", entry %}
