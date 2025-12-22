@@ -17,16 +17,16 @@ eleventyComputed:
     </h1>
 </header>
 
-<p>
+<p class="tiers__intro">
+    {% renderTemplate "webc" %}
+    <tiers-link></tiers-link>
+    {% endrenderTemplate %}
+
     <button type="button" class="button-as-link"
             onclick="document.querySelector('#desc').showModal(); document.location.hash = '_about';">
         About these tiers
     </button>
 </p>
-
-{% renderTemplate "webc" %}
-<tiers-link></tiers-link>
-{% endrenderTemplate %}
 
 <main>
     <ul class="tiers">
@@ -89,6 +89,8 @@ eleventyComputed:
     </footer>
 </dialog>
 
-{% renderTemplate "webc" %}
-<tiers-link></tiers-link>
-{% endrenderTemplate %}
+<p>
+    {% renderTemplate "webc" %}
+    <tiers-link></tiers-link>
+    {% endrenderTemplate %}
+</p>

@@ -74,6 +74,16 @@ main {
   font-size: 2rem;
 }
 
+.tiers__intro {
+  padding-inline: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+
+  font-size: 1.25rem;
+}
+
 .tiers {
   display: flex;
   flex-direction: column;
