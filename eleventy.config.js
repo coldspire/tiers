@@ -9,6 +9,11 @@ export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("fonts");
 
+  eleventyConfig.addFilter("keys", (obj) => Object.keys(obj).sort());
+  eleventyConfig.addFilter("inspect", (obj) =>
+    inspect(obj, { sorted: true, depth: null }),
+  );
+
   eleventyConfig.addWatchTarget("./_data/**");
 
   eleventyConfig.addFilter("inspect", (obj) =>
