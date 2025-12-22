@@ -66,6 +66,14 @@ main {
   text-decoration: underline;
 }
 
+.index-list {
+  list-style: none;
+  padding-inline-start: 1rem;
+  margin-block: 1rem;
+
+  font-size: 2rem;
+}
+
 .tiers {
   display: flex;
   flex-direction: column;
