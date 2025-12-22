@@ -223,8 +223,13 @@ main {
   border-block-end: 2px solid #888;
 }
 
-.tier-desc > header > h2 {
-  background-image: linear-gradient(to right, white 66%, blue 66%);
+.tier-desc .rank-wrapper {
+  display: inline-block;
+  padding-inline: 0.5em;
+
+  background-color: var(--bg-color);
+
+  border-radius: 5px;
 }
 
 .tier-desc > article {
