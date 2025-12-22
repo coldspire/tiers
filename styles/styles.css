@@ -133,7 +133,7 @@ main {
 }
 
 .tier > .tier__notice {
-  padding-inline-start: var(--cell-size);
+  padding-inline: 1rem;
 }
 
 .tier__items {
