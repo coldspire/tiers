@@ -5,6 +5,8 @@ pagination:
   size: 1
   alias: tiersKey
 permalink: tiers/{{ pagination.items[0] }}/index.html
+eleventyComputed:
+    subtitle: "{{ tiers[pagination.items[0]].tiersTitle }}"
 ---
 
 {% assign tiersCurrent = tiers[tiersKey] %}
