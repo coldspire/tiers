@@ -1,14 +1,16 @@
 ---
 layout: base.liquid
-title: Tiers
 ---
-<h1 class="tiers-background">
-        <div aria-hidden="true" class="tiers-background__colors"></div>
-        <span class="padding-inline">Tiers</span>
+<h1 class="tiers-background border-bottom__colors">
+    T*LC Tiers
 </h1>
 
-<ul>
+<ul class="index-list">
     {% for tier in tiers %}
         <li><a href="tiers/{{ tier[0] }}/">{{ tier[1].tiersTitle }}</a></li>
     {% endfor %}
 </ul>
+
+<footer>
+    <a href="/">Back to the T*LC index</a>
+</footer>

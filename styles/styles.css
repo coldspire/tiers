@@ -28,10 +28,8 @@
   --tier-heading-bg-D: #7fffff;
   --tier-heading-bg-F: #807fff;
   --tier-heading-bg-O: #aaaaaa;
-}
 
-.padding-inline {
-  padding-inline: 1rem;
+  --spacing-common: 2rem;
 }
 
 html {
@@ -54,6 +52,7 @@ h6 {
 
 h1 {
   font-size: 2.5rem;
+  padding-inline-start: var(--spacing-common);
 }
 
 main {
@@ -70,6 +69,24 @@ main {
   text-decoration: underline;
 }
 
+.index-list {
+  list-style: none;
+  padding-inline-start: var(--spacing-common);
+  margin-block: 0.5rem 1rem;
+
+  font-size: 2rem;
+}
+
+.tiers__intro {
+  padding-inline: 40px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+
+  font-size: 1.25rem;
+}
+
 .tiers {
   display: flex;
   flex-direction: column;
@@ -81,7 +98,6 @@ main {
 }
 
 .tier {
-  --spacing-common: 1em;
   --cell-size: calc(125px - var(--spacing-common));
 
   display: flex;
@@ -119,7 +135,7 @@ main {
 }
 
 .tier > .tier__notice {
-  padding-inline-start: var(--cell-size);
+  padding-inline: 1rem;
 }
 
 .tier__items {
@@ -240,20 +256,17 @@ main {
   position: relative;
 }
 
-.tiers-background__colors {
-  position: absolute;
-  width: 100%;
-  height: 0.6lh;
-  bottom: 0;
-  background-image: linear-gradient(
-    in oklab to right,
-    var(--tier-heading-bg-S) 17%,
-    var(--tier-heading-bg-A) 17% 34%,
-    var(--tier-heading-bg-B) 34% 51%,
-    var(--tier-heading-bg-C) 51% 68%,
-    var(--tier-heading-bg-D) 68% 85%,
-    var(--tier-heading-bg-F) 85%
-  );
-
-  z-index: -1;
+.border-bottom__colors {
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      in oklab to right,
+      var(--tier-heading-bg-S) 17%,
+      var(--tier-heading-bg-A) 17% 34%,
+      var(--tier-heading-bg-B) 34% 51%,
+      var(--tier-heading-bg-C) 51% 68%,
+      var(--tier-heading-bg-D) 68% 85%,
+      var(--tier-heading-bg-F) 85%
+    )
+    100 5;
 }
