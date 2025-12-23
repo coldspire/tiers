@@ -1,8 +1,17 @@
 import { inspect } from "node:util";
+import markdownIt from "markdown-it";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import pluginWebC from "@11ty/eleventy-plugin-webc";
 
 export default async function (eleventyConfig) {
+  eleventyConfig.setLibrary(
+    "md",
+    markdownIt({
+      html: true,
+      typographer: true,
+    }),
+  );
+
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(pluginWebC);
 
