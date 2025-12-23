@@ -28,6 +28,8 @@
   --tier-heading-bg-D: #7fffff;
   --tier-heading-bg-F: #807fff;
   --tier-heading-bg-O: #aaaaaa;
+
+  --spacing-common: 2rem;
 }
 
 html {
@@ -50,6 +52,7 @@ h6 {
 
 h1 {
   font-size: 2.5rem;
+  padding-inline-start: var(--spacing-common);
 }
 
 main {
@@ -68,8 +71,8 @@ main {
 
 .index-list {
   list-style: none;
-  padding-inline-start: 1rem;
-  margin-block: 1rem;
+  padding-inline-start: var(--spacing-common);
+  margin-block: 0.5rem 1rem;
 
   font-size: 2rem;
 }
@@ -95,7 +98,6 @@ main {
 }
 
 .tier {
-  --spacing-common: 1em;
   --cell-size: calc(125px - var(--spacing-common));
 
   display: flex;
