@@ -70,11 +70,19 @@ main {
 }
 
 .index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding-inline-start: 1em;
+
   list-style: none;
-  padding-inline-start: var(--spacing-common);
-  margin-block: 0.5rem 1rem;
 
   font-size: 2rem;
+}
+
+.index-list > li {
+  line-height: 1em;
 }
 
 .index-animation {
@@ -120,8 +128,9 @@ main {
   width: var(--box-size);
   height: var(--box-size);
 
-  --box-hop-delay: calc((var(--box-num) - 1) * 0.2s);
+  --box-hop-delay: calc(5s + ((var(--box-num) - 1) * 0.2s));
 
+  /* duration, function, delay, iterations, direction, name*/
   animation: 0.5s ease-out var(--box-hop-delay) 2 alternate box-hop;
 }
 
