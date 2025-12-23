@@ -70,11 +70,84 @@ main {
 }
 
 .index-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  padding-inline-start: 1em;
+
   list-style: none;
-  padding-inline-start: var(--spacing-common);
-  margin-block: 0.5rem 1rem;
 
   font-size: 2rem;
+}
+
+.index-list > li {
+  line-height: 1em;
+}
+
+.index-animation {
+  --box-size: 35px;
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: calc(var(--box-size) * 2);
+
+  display: flex;
+  align-items: flex-end;
+
+  overflow: hidden;
+
+  :nth-child(1) {
+    background-color: var(--tier-heading-bg-S);
+    --box-num: 1;
+  }
+  :nth-child(2) {
+    background-color: var(--tier-heading-bg-A);
+    --box-num: 2;
+  }
+  :nth-child(3) {
+    background-color: var(--tier-heading-bg-B);
+    --box-num: 3;
+  }
+  :nth-child(4) {
+    background-color: var(--tier-heading-bg-C);
+    --box-num: 4;
+  }
+  :nth-child(5) {
+    background-color: var(--tier-heading-bg-D);
+    --box-num: 5;
+  }
+  :nth-child(6) {
+    background-color: var(--tier-heading-bg-F);
+    --box-num: 6;
+  }
+}
+
+.index-animation__box {
+  width: var(--box-size);
+  height: var(--box-size);
+
+  --box-hop-delay: calc(5s + ((var(--box-num) - 1) * 0.2s));
+
+  /* duration, function, delay, iterations, direction, name*/
+  animation: 0.5s ease-out var(--box-hop-delay) 2 alternate box-hop;
+}
+
+@media (prefers-reduced-motion) {
+  .index-animation__box {
+    animation: none;
+  }
+}
+
+@keyframes box-hop {
+  from {
+    translate: 0 0;
+  }
+
+  to {
+    translate: 0 calc(-1 * var(--box-size));
+  }
 }
 
 .tiers__intro {
