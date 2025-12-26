@@ -325,6 +325,20 @@ main {
   position: relative;
 }
 
+.tier-desc__highlights {
+  --marker: "👍 ";
+}
+
+.tier-desc__lowlights {
+  --marker: "👎 ";
+}
+
+.tier-desc :is(.tier-desc__highlights, .tier-desc__lowlights) {
+  > li::marker {
+    content: var(--marker);
+  }
+}
+
 .tiers-background {
   position: relative;
 }
