@@ -8,7 +8,7 @@ async function createTiersFromDir(dir) {
   let tiers = {
     id: tiersId,
     title: "",
-    aboutText: "",
+    text: "",
     ranks: {
       S: [],
       A: [],
