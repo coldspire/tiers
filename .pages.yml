@@ -1,0 +1,19 @@
+content:
+  - name: chris-nolan-movies
+    label: Christopher Nolan Movies
+    path: tiers/chris-nolan-movies
+    type: collection
+    fields:
+      - name: id
+        label: ID (file name)
+        type: string
+      - name: rank
+        label: Rank
+        type: select
+        options:
+          values: ["S", "A", "B", "C", "D", "F", "O"]
+      - name: text
+        label: Text for entry
+        type: text
+        options:
+          rows: 30
