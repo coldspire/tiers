@@ -23,7 +23,7 @@ async function createTiersFromDir(dir) {
   for (const file of files) {
     const filePath = "../" + tiersPathFromWorkspaceRoot + tiersId + "/" + file;
     const fileContents = (await import(filePath)).default;
-    if (file === "_about.json") {
+    if (file === "about.json") {
       tiers = {
         ...tiers,
         ...fileContents, // The About file contains information about all the tiers, so it's added to the top level properties
