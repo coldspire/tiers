@@ -10,8 +10,9 @@ content:
       primary: id
     fields:
       - name: id
-        label: ID (file name)
+        label: ID
         type: string
+        pattern: ^[a-z][a-z0-9\-]+[a-z]$
       - name: rank
         label: Rank
         type: select
