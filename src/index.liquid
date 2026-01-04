@@ -6,10 +6,12 @@ layout: base.liquid
 </h1>
 
 <ul class="index-list">
-    {% for tier in tiers %}
-        <li><a href="tiers/{{ tier[0] }}/">{{ tier[1].tiersTitle }}</a></li>
+    {% for tiers in tiersAll %}
+        <li><a href="tiers/{{ tiers.id }}/">{{ tiers.title }}</a></li>
     {% endfor %}
 </ul>
+
+<pre>{{ tiersAll |  inspect }}</pre>
 
 <footer>
     <a href="/">Back to the T*LC index</a>
