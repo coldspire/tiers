@@ -2,6 +2,8 @@ content:
   - name: chris-nolan-movies
     label: Christopher Nolan Movies
     path: tiers/chris-nolan-movies
+    filename: {id}.js
+    format: code
     type: collection
     fields:
       - name: id
