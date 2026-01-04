@@ -5,6 +5,9 @@ content:
     filename: '{id}.js'
     format: code
     type: collection
+    view:
+      fields: [ id, rank, text]
+      primary: id
     fields:
       - name: id
         label: ID (file name)
@@ -19,3 +22,4 @@ content:
         type: text
         options:
           rows: 30
+
