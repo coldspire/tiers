@@ -1,12 +1,12 @@
 content:
-  - name: chris-nolan-movies
-    label: Christopher Nolan Movies
-    path: tiers/chris-nolan-movies
+  - name: tiers
+    label: Tiers
+    path: tiers
     filename: '{primary}.json'
     format: json
     type: collection
     view:
-      fields: [ id, rank, text]
+      fields: [ id, rank, text ]
       primary: id
     fields:
       - name: id
