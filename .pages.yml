@@ -6,6 +6,7 @@ content:
     format: json
     type: collection
     view:
+      layout: tree
       fields: [ id, rank, text ]
       primary: id
     fields:
