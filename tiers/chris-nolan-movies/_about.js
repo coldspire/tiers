@@ -1,9 +1,0 @@
-export default {
-  title: "Christopher Nolan Movies",
-  aboutText: `I saw Christopher Nolan's first movie, _Memento_, when it was released in theaters, way back in 2000. At the time, being a teenager who was mostly brought up on a diet of Michael Bay and ballsy brain-dead action and slight horror movies, _Memento_ was a flashbulb insight into what movies _could be_. I just really hadn't seen much like it.
-
-    Several years pass, and I become part movie-nerd in my twenties. Nolan releases movie after movie, and _Memento_, which initially looked like a single spark of genius, turned out to be the beginning of a series of delightful brain-warmers. More years pass, and Nolan's hot streak to the present day is unbroken for me.
-
-    After experiencing so many great Nolan movies, putting him on my own personal pantheon of favorite filmmakers was an easy choice.
-  `,
-};

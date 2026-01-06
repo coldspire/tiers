@@ -2,13 +2,18 @@ import { readdir } from "node:fs/promises";
 
 const tiersPathFromWorkspaceRoot = "./tiers/";
 
+async function importJson(path) {
+  const fileContents = await import(path, { with: { type: "json" } });
+  return fileContents.default;
+}
+
 async function createTiersFromDir(dir) {
   const tiersId = dir;
   const files = await readdir(tiersPathFromWorkspaceRoot + tiersId);
   let tiers = {
     id: tiersId,
     title: "",
-    aboutText: "",
+    text: "",
     ranks: {
       S: [],
       A: [],
@@ -22,15 +27,14 @@ async function createTiersFromDir(dir) {
 
   for (const file of files) {
     const filePath = "../" + tiersPathFromWorkspaceRoot + tiersId + "/" + file;
-    const fileContents = (await import(filePath)).default;
-    if (file === "_about.js") {
+    const fileContents = await importJson(filePath);
+    if (fileContents.id === "about") {
       tiers = {
         ...tiers,
         ...fileContents, // The About file contains information about all the tiers, so it's added to the top level properties
       };
     } else {
       const tierEntry = {
-        id: file.split(".")[0],
         ...fileContents,
       };
       const rank = tierEntry.rank;
