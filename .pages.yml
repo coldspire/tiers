@@ -8,7 +8,7 @@ content:
     view:
       layout: tree
       sort: [ id ]
-      fields: [ id, rank, text ]
+      fields: [ id, title, rank, text ]
       primary: id
     fields:
       - name: id
