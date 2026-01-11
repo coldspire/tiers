@@ -14,7 +14,7 @@ export default async function (eleventyConfig) {
     inspect(obj, { sorted: true, depth: null }),
   );
 
-  eleventyConfig.addWatchTarget("./_data/**");
+  eleventyConfig.addWatchTarget("./tiers");
 
   eleventyConfig.addFilter("inspect", (obj) =>
     inspect(obj, { sorted: true, depth: null }),
