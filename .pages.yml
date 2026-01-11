@@ -20,6 +20,9 @@ content:
         type: select
         options:
           values: ["S", "A", "B", "C", "D", "F", "O"]
+      - name: title
+        label: Title
+        type: string
       - name: text
         label: Text for entry
         type: rich-text
