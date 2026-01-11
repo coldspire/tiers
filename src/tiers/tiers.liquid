@@ -4,9 +4,9 @@ pagination:
   data: tiersAll
   size: 1
   alias: tiersCurrent
-permalink: tiers/{{ pagination.items[0].id }}/index.html
+permalink: tiers/{{tiersCurrent.id }}/index.html
 eleventyComputed:
-    subtitle: "{{ tiers[pagination.items[0]].title }}"
+    subtitle: "{{ tiersCurrent.title }}"
 ---
 
 <header>
