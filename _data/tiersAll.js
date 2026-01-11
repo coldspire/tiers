@@ -31,7 +31,9 @@ async function createTiersFromDir(dir) {
     if (fileContents.id === "about") {
       tiers = {
         ...tiers,
-        ...fileContents, // The About file contains information about all the tiers, so it's added to the top level properties
+        // Ignore the ID, since it's always "about"
+        title: fileContents.title,
+        text: fileContents.text,
       };
     } else {
       const tierEntry = {
