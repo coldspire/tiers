@@ -15,14 +15,14 @@ content:
         label: ID
         type: string
         pattern: ^[a-z][a-z0-9\-]+[a-z]$
+      - name: title
+        label: Title
+        type: string
       - name: rank
         label: Rank
         type: select
         options:
           values: ["S", "A", "B", "C", "D", "F", "O"]
-      - name: title
-        label: Title
-        type: string
       - name: text
         label: Text for entry
         type: rich-text
