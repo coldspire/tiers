@@ -39,7 +39,7 @@ ol[role="list"] {
 
 /* Set core body defaults */
 body {
-  min-height: 100vh;
+  /* min-height: 100vh; commented out to prevent a vertical scrollbar*/
   line-height: 1.5;
 }
 

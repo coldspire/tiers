@@ -1,37 +1,41 @@
 ---
 layout: base.liquid
 pagination:
-  data: tiers
+  data: tiersAll
   size: 1
-  alias: tiersKey
-permalink: tiers/{{ pagination.items[0] }}/index.html
+  alias: tiersCurrent
+permalink: tiers/{{ pagination.items[0].id }}/index.html
+eleventyComputed:
+    subtitle: "{{ tiers[pagination.items[0]].title }}"
 ---
 
-{% assign tiersCurrent = tiers[tiersKey] %}
-
 <header>
-    <h1>{{ tiersCurrent.tiersTitle }}</h1>
+    <h1 class="tiers-background border-bottom__colors">
+        Tiers: {{ tiersCurrent.title }}
+    </h1>
 </header>
 
-<p>
+<p class="tiers__intro">
+    {% renderTemplate "webc" %}
+    <tiers-link></tiers-link>
+    {% endrenderTemplate %}
+
     <button type="button" class="button-as-link"
             onclick="document.querySelector('#desc').showModal(); document.location.hash = '_about';">
         About these tiers
     </button>
 </p>
 
-{% renderTemplate "webc" %}
-<tiers-link></tiers-link>
-{% endrenderTemplate %}
-
 <main>
     <ul class="tiers">
         {% for rank in tiersCurrent.ranks %}
-            {% assign isOnDeck = rank.rankName == "O" %}
-            <li class="tier" style="--tier-heading-bg: var(--tier-heading-bg-{{ rank.rankName }})">
-                <h2>{{ rank.rankName }}</h2>
+            {% assign rankName = rank[0] %}
+            {% assign rankEntires = rank[1] %}
+            {% assign isOnDeck = rank == "O" %}
+            <li class="tier" style="--tier-heading-bg: var(--tier-heading-bg-{{ rankName }})">
+                <h2>{{ rankName }}</h2>
                 <ul class="tier__items">
-                    {% for entry in rank.entries %}
+                    {% for entry in rankEntires %}
                         <li>
                             {% if isOnDeck %}
                             <span class="on-deck">{{ entry.title }}</span>
@@ -54,20 +58,22 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
 <dialog id="desc" class="tier__description-dialog">
     <div id="_about" class="tier-desc">
         <header>
-            <h2>About "{{ tiersCurrent.tiersTitle }}"</h2>
+            <h2>About "{{ tiersCurrent.title }}"</h2>
         </header>
         <article>
             {% renderTemplate "liquid,md", tiersCurrent %}
-            {{ aboutText }}
+            {{ text }}
             {% endrenderTemplate %}
         </article>
     </div>
     {% for rank in tiersCurrent.ranks %}
-        {% for entry in rank.entries %}
+        {% assign rankName = rank[0] %}
+        {% assign rankEntries = rank[1] %}
+        {% for entry in rankEntries %}
             <div id="{{ entry.id }}" class="tier-desc">
                 <header>
                     <h2>{{ entry.title }}</h2>
-                    <p>An {{ rank.rankName }}-rank entry in the {{ tiersCurrent.tiersTitle }} tiers</p>
+                    <p>An <span class="rank-wrapper" style="--bg-color: var(--tier-heading-bg-{{rankName}})">{{ rankName }}-rank</span> entry in the {{ tiersCurrent.title }} tiers</p>
                 </header>
                 <article>
                     {% renderTemplate "liquid,md", entry %}
@@ -85,6 +91,8 @@ permalink: tiers/{{ pagination.items[0] }}/index.html
     </footer>
 </dialog>
 
-{% renderTemplate "webc" %}
-<tiers-link></tiers-link>
-{% endrenderTemplate %}
+<p>
+    {% renderTemplate "webc" %}
+    <tiers-link></tiers-link>
+    {% endrenderTemplate %}
+</p>
